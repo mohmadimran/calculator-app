@@ -16,7 +16,7 @@ export default function App() {
       } catch (error) {
         setInput(error);
       }
-    } else if (val === "c") {
+    } else if (val === "C") {
       setInput("");
       setResult("");
     } else {
@@ -43,7 +43,7 @@ export default function App() {
             "2",
             "3",
             "*",
-            "c",
+            "C",
             "0",
             "=",
             "/",
